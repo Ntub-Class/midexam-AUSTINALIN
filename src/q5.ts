@@ -12,3 +12,16 @@ checkId('425') // 不合法
 checkId('355') // 合法
 checkId('754') // 不合法
 checkId('100') // 合法
+
+let fibo = (n: number): number => {
+    if (n === 0) {
+        return 0;
+    } else if (n === 1) {
+        return 1;
+    }
+    return fibo(n - 1) + fibo(n - 2)
+}
+
+let aa = fibo(6);
+
+console.log(aa)

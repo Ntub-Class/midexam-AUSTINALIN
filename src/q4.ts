@@ -5,11 +5,27 @@
 // 提示: String.includes, String.split
 
 
-let calc = function (calcString: string) {
+//let calc = function (calcString: string) {
+//calc('8*2')//
 
+let calc = (a: number, b: number) => {
+             console.log(a + ' X ' + b + ' = ' + a * b);
+}
+     
+calc(8,2)
+
+//calc('1+1')//
+let calc1 = (a: number, b: number) => {
+    console.log(a + ' + ' + b + ' = ' + a + b);
 }
 
-calc('8*2')
-calc('1+1')
-calc('5/5')
-calc('9-1')
+calc1(1,1)
+
+//calc('5/5')//
+
+let calc2 = (a: number, b: number) => {
+    console.log(a + '/' + b + ' = ' + a / b);
+}
+
+calc2(5,5)
+
